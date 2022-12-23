@@ -1,0 +1,32 @@
+.hero {
+  border-radius: 10px;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  animation: var(--skeleton);
+}
+
+.hero div {
+  position: absolute;
+}
+
+.hero img {
+  filter: brightness(55%) blur(2px);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.hero h1 {
+  font-family: var(--cursive);
+  color: var(--col-primary);
+  text-align: center;
+}
+
+.hero p {
+  text-align: center;
+  color: var(--col-light);
+}

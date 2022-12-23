@@ -1,0 +1,191 @@
+.detail {
+  background-color: #f5f5f5;
+  font-size: 18px;
+  padding: 6px;
+  width: 100%;
+  align-items: center;
+  border-radius: 13px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, fit-content);
+  grid-template-areas:
+    "image image image"
+    "data data data"
+    "desk desk desk";
+  box-shadow: 0px 0px 3.4px rgba(0, 0, 0, 0.009),
+    0px 0px 7.6px rgba(0, 0, 0, 0.016), 0px 0px 13.3px rgba(0, 0, 0, 0.02),
+    0px 0px 22px rgba(0, 0, 0, 0.025), 0px 0px 37.9px rgba(0, 0, 0, 0.033),
+    0px 0px 56px rgba(0, 0, 0, 0.05);
+}
+
+.detail__image {
+  width: 100%;
+  aspect-ratio: 3/2;
+  display: flex;
+  justify-content: center;
+  border-radius: 11px;
+  overflow: hidden;
+  position: relative;
+  grid-area: image;
+  animation: var(--skeleton);
+}
+
+.detail__image img {
+  height: 100%;
+  margin: auto;
+}
+
+.detail__rating {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  font-size: 1em;
+  font-family: var(--roboto);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  padding: 2px 10px 2px 6px;
+  display: block;
+  border-radius: 5px 0 0 5px;
+}
+
+.detail__data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 50px;
+  grid-template-rows: repeat(3, fit-content);
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+  grid-area: data;
+}
+
+.detail__data h1 {
+  grid-area: 1 / 1 / 2 / 5;
+  font-size: 1em;
+  font-family: var(--poppins);
+  border-radius: 5px;
+}
+
+.detail__data p {
+  grid-area: 2 / 1 / 3 / 5;
+  font-size: 0.85em;
+  font-weight: 400;
+  font-family: var(--roboto);
+  color: #262626;
+  border-radius: 5px;
+}
+
+.detail__data #likeButtonContainer {
+  grid-area: 1 / 5/ 3/ 6;
+}
+
+.detail__data button {
+  aspect-ratio: 1/1;
+  width: 100%;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.detail__data button[aria-label="like the restaurant"] {
+  background: var(--col-primary) url("../public/assets/css_uses/like.svg")
+    no-repeat center/ 60%;
+}
+.detail__data button[aria-label="unlike the restaurant"] {
+  background: var(--col-primary) url("../public/assets/css_uses/liked.svg")
+    no-repeat center/ 60%;
+}
+
+.detail__data div {
+  grid-area: 3/1/4/5;
+  margin-top: 10px;
+}
+
+.detail__data .categories span {
+  background-color: var(--col-primary);
+  padding: 3px 15px;
+  font-size: 0.8em;
+  border-radius: 30px;
+  font-family: var(--roboto);
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.detail__deskription {
+  grid-area: desk;
+  padding: 3px;
+}
+
+.detail__deskription p {
+  line-height: 20px;
+  text-indent: 20px;
+  font-size: 0.9em;
+  border-radius: 10px;
+}
+
+.detail .skeleton {
+  animation: var(--skeleton);
+  color: transparent;
+}
+
+.detail__deskription .skeleton {
+  margin-top: 5px;
+  height: 15px;
+}
+
+@media screen and (min-width: 530px) {
+  .detail {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, fit-content);
+    grid-template-areas:
+      "image image data data"
+      "desk desk desk desk";
+  }
+}
+@media screen and (min-width: 710px) {
+  .detail {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, fit-content);
+    grid-template-areas:
+      "image image data data data"
+      "image image desk desk desk";
+  }
+
+  .detail__image {
+    aspect-ratio: 3/4;
+  }
+}
+@media screen and (min-width: 840px) {
+  .detail {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, fit-content);
+    grid-template-areas:
+      "image data data"
+      "image desk desk";
+  }
+
+  .detail__deskription p {
+    line-height: 25px;
+  }
+
+  .detail__image {
+    aspect-ratio: 4/5;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .detail {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, fit-content);
+    grid-template-areas:
+      "image image data data data"
+      "image image desk desk desk";
+  }
+  .detail__image {
+    aspect-ratio: 5/4;
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Paket Rosemary",
+    "source_webp": "./assets/menus/food-01.webp",
+    "source_jpg": "./assets/menus/food-01.jpg",
+    "description": "Olahan dari daging pilihan yang mampu memanjakan lidah",
+    "rate": 4.5,
+    "price": "Rp.35.000,00"
+  },
+  {
+    "name": "Ikan Teri dan Roti",
+    "source_webp": "./assets/menus/food-02.webp",
+    "source_jpg": "./assets/menus/food-02.jpg",
+    "description": "Makanan dari perpaduan antara roti panggang dan teri yang segar",
+    "rate": 4,
+    "price": "Rp.20.000,00"
+  },
+  {
+    "name": "Kari Kacang dan Telur",
+    "source_webp": "./assets/menus/food-03.webp",
+    "source_jpg": "./assets/menus/food-03.jpg",
+    "description": "Kari kacang yang gurih dengan berbagai macam rempah dipadukan dengan sebutir telur",
+    "rate": 3.5,
+    "price": "Rp.15.000,00"
+  },
+  {
+    "name": "Bebek Crepes",
+    "source_webp": "./assets/menus/food-04.webp",
+    "source_jpg": "./assets/menus/food-04.jpg",
+    "description": "Crepes yang dipadukan dengan olahan bebek yang gurih diatasnya",
+    "rate": 4.1,
+    "price": "Rp.13.000,00"
+  },
+  {
+    "name": "Napolitana",
+    "source_webp": "./assets/menus/food-05.webp",
+    "source_jpg": "./assets/menus/food-05.jpg",
+    "description": "Olahan kuliner yang sangat cocok untuk di santap bersama-sama",
+    "rate": 3.8,
+    "price": "Rp.22.000,00"
+  },
+  {
+    "name": "Daging Sapi",
+    "source_webp": "./assets/menus/food-06.webp",
+    "source_jpg": "./assets/menus/food-06.jpg",
+    "description": "Olahan steak dari daging segar dengan tingkat kematangan yang pas untuk selera anda",
+    "rate": 4.8,
+    "price": "Rp.38.000,00"
+  },
+  {
+    "name": "Salad Yuzu",
+    "source_webp": "./assets/menus/food-07.webp",
+    "source_jpg": "./assets/menus/food-07.jpg",
+    "description": "Olahan salad dari bahan-bahan organik yang segar cocok untuk anda yang vegetarian",
+    "rate": 3.1,
+    "price": "Rp.27.000,00"
+  },
+  {
+    "name": "Sosis Squash dan Mint",
+    "source_webp": "./assets/menus/food-08.webp",
+    "source_jpg": "./assets/menus/food-08.jpg",
+    "description": "Olahan sosis bakar yang di padukan dengan mint meembuat rasa menjadi gurih dan segar",
+    "rate": 4.3,
+    "price": "Rp.26.000,00"
+  },
+  {
+    "name": "Kari Terong",
+    "source_webp": "./assets/menus/food-09.webp",
+    "source_jpg": "./assets/menus/food-09.jpg",
+    "description": "Kari yang diolah dari terong dan campuran berbagai rempah pilihan",
+    "rate": 3,
+    "price": "Rp.15.000,00"
+  },
+  {
+    "name": "Matzo Farzel",
+    "source_webp": "./assets/menus/food-10.webp",
+    "source_jpg": "./assets/menus/food-10.jpg",
+    "description": "Hidangan yang ringan cocok untuk menjadi menu sarapan anda",
+    "rate": 4.2,
+    "price": "Rp.10.000,00"
+  },
+  {
+    "name": "Toastie Salmon",
+    "source_webp": "./assets/menus/food-11.webp",
+    "source_jpg": "./assets/menus/food-11.jpg",
+    "description": "Olahan dari salmon segar asli jepang yang di masak dengan tingkat kematangan yang pas",
+    "rate": 4.6,
+    "price": "Rp.28.000,00"
+  },
+  {
+    "name": "Mi",
+    "source_webp": "./assets/menus/food-12.webp",
+    "source_jpg": "./assets/menus/food-12.jpg",
+    "description": "Mi biasa, dibuat sendiri dengan campuran saus yang gurih-gurih sedap",
+    "rate": 3.8,
+    "price": "Rp.17.000,00"
+  },
+  {
+    "name": "Roket Penne",
+    "source_webp": "./assets/menus/food-13.webp",
+    "source_jpg": "./assets/menus/food-13.jpg",
+    "description": "Salah satu jenis pasta, cocok untuk menjadi hidangan utama anda",
+    "rate": 4.3,
+    "price": "Rp.24.000,00"
+  },
+  {
+    "name": "Salad Lengkeng",
+    "source_webp": "./assets/menus/food-14.webp",
+    "source_jpg": "./assets/menus/food-14.jpg",
+    "description": "Olahan salad buah yang terasa segar ketika masuk mulut anda, cocok untuk di makan",
+    "rate": 3.3,
+    "price": "Rp.27.000,00"
+  },
+  {
+    "name": "Tumis Leek",
+    "source_webp": "./assets/menus/food-15.webp",
+    "source_jpg": "./assets/menus/food-15.jpg",
+    "description": "Olahan yang sangat nikmat cocok untuk lidah anda yang suka makan pakai nasi",
+    "rate": 3.9,
+    "price": "Rp.17.000,00"
+  },
+  {
+    "name": "Sup Kohlrabi",
+    "source_webp": "./assets/menus/food-16.webp",
+    "source_jpg": "./assets/menus/food-16.jpg",
+    "description": "Olahan sup yang cocok untuk menghangatkan tubuh anda dan juga mengenyangkan",
+    "rate": 3.5,
+    "price": "Rp.20.000,00"
+  },
+  {
+    "name": "Teh Manis",
+    "source_webp": "./assets/menus/drink-01.webp",
+    "source_jpg": "./assets/menus/drink-01.jpg",
+    "description": "Olahan sup yang cocok untuk menghangatkan tubuh anda dan juga mengenyangkan",
+    "rate": 3.5,
+    "price": "Rp.7.000,00"
+  },
+  {
+    "name": "Sirup",
+    "source_webp": "./assets/menus/drink-02.webp",
+    "source_jpg": "./assets/menus/drink-02.jpg",
+    "description": "Minuman segar yang terbuat dari sirup kurnia dan di tambah es batu",
+    "rate": 3.9,
+    "price": "Rp.10.000,00"
+  },
+  {
+    "name": "Minuman Soda",
+    "source_webp": "./assets/menus/drink-03.webp",
+    "source_jpg": "./assets/menus/drink-03.jpg",
+    "description": "Minuman soda yagn di tambah kan es batu cocok untuk anda yang lelah dengan kehidupan",
+    "rate": 4.2,
+    "price": "Rp.10.000,00"
+  },
+  {
+    "name": "Kopi Espresso",
+    "source_webp": "./assets/menus/drink-04.webp",
+    "source_jpg": "./assets/menus/drink-04.jpg",
+    "description": "Minuman dari biji kopi pilihan akan terasa begitu terasa nikmat di lidah anda",
+    "rate": 4.5,
+    "price": "Rp.20.000,00"
+  },
+  {
+    "name": "Jus Tomat",
+    "source_webp": "./assets/menus/drink-05.webp",
+    "source_jpg": "./assets/menus/drink-05.jpg",
+    "description": "Minuman sehat dari tomat segar cocok untuk anda yang sedang diet",
+    "rate": 2.9,
+    "price": "Rp.8.000,00"
+  },
+  {
+    "name": "Jus Mangga",
+    "source_webp": "./assets/menus/drink-06.webp",
+    "source_jpg": "./assets/menus/drink-06.jpg",
+    "description": "Olahan jus dari mangga impor yang manis tidak di campur gula karena udah manis",
+    "rate": 3.8,
+    "price": "Rp.12.000,00"
+  },
+  {
+    "name": "Jus Jeruk",
+    "source_webp": "./assets/menus/drink-07.webp",
+    "source_jpg": "./assets/menus/drink-07.jpg",
+    "description": "Minuman dari jeruk yang segar di impor langsung dari korea kemudian diperas di sini",
+    "rate": 4.3,
+    "price": "Rp.12.000,00"
+  },
+  {
+    "name": "Jus Apel",
+    "source_webp": "./assets/menus/drink-08.webp",
+    "source_jpg": "./assets/menus/drink-08.jpg",
+    "description": "Jus dari buah apel, karena namanya jus apel bukan jus jeruk",
+    "rate": 4.1,
+    "price": "Rp.12.000,00"
+  },
+  {
+    "name": "Jus Alpukat",
+    "source_webp": "./assets/menus/drink-09.webp",
+    "source_jpg": "./assets/menus/drink-09.jpg",
+    "description": "Jus dari buah alpukat di campur gula dan susu kental manis rasa coklat",
+    "rate": 3.9,
+    "price": "Rp.15.000,00"
+  },
+  {
+    "name": "Es Teh",
+    "source_webp": "./assets/menus/drink-10.webp",
+    "source_jpg": "./assets/menus/drink-10.jpg",
+    "description": "Teh Manis cuma di tambah es, lebih segar dan lebih mahal tentunya",
+    "rate": 3.5,
+    "price": "Rp.10.000,00"
+  },
+  {
+    "name": "Es Krim",
+    "source_webp": "./assets/menus/drink-11.webp",
+    "source_jpg": "./assets/menus/drink-11.jpg",
+    "description": "Es krim dari susu sapi asli yg baru diperah di campur dengan perasa buah alami",
+    "rate": 4.2,
+    "price": "Rp.12.000,00"
+  },
+  {
+    "name": "Es Kopi",
+    "source_webp": "./assets/menus/drink-12.webp",
+    "source_jpg": "./assets/menus/drink-12.jpg",
+    "description": "Kopi yang di seduh terus di tambah es, rasanya pahit-pahit seger",
+    "rate": 4.8,
+    "price": "Rp.10.000,00"
+  },
+  {
+    "name": "Coklat Panas",
+    "source_webp": "./assets/menus/drink-13.webp",
+    "source_jpg": "./assets/menus/drink-13.jpg",
+    "description": "Minuman dari coklat cocok untuk anda yang suka manis biar tambah manis",
+    "rate": 4.3,
+    "price": "Rp.12.000,00"
+  },
+  {
+    "name": "Air",
+    "source_webp": "./assets/menus/drink-14.webp",
+    "source_jpg": "./assets/menus/drink-14.jpg",
+    "description": "Air AQUA cuma disajikan dalam gelas biar lebih mahal",
+    "rate": 5,
+    "price": "Rp.7.000,00"
+  }
+]

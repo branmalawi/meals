@@ -1,0 +1,138 @@
+nav-bar {
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  transition: 0.5s;
+  display: block;
+}
+
+.navbar {
+  height: 60px;
+  background-color: var(--col-light);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.navbar__logo {
+  height: 100%;
+}
+
+.navbar img {
+  height: 100%;
+}
+
+.navbar__menu-toggle {
+  display: block;
+  height: 80%;
+  aspect-ratio: 1/1;
+  background: url("../public/assets/css_uses/menu.svg") no-repeat center / 80%;
+  border: none;
+  min-height: 44px;
+}
+
+.navbar__list {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  justify-content: center;
+  list-style: none;
+  position: fixed;
+  top: 50%;
+  left: -230px;
+  transform: translate(0, -50%);
+  background-color: var(--col-light);
+  padding: 10px;
+  border-radius: 0 10px 10px 0;
+  transition: 0.2s;
+}
+
+.navbar__list-item {
+  font-family: var(--nunito);
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.navbar__list-item:hover {
+  background-color: #e5e5e5;
+}
+
+.navbar__list-item a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 3px 10px;
+  font-size: 20px;
+  color: #212121;
+}
+
+.navbar__list-item a img {
+  height: 35px;
+  margin-right: 5px;
+}
+
+.navbar--page-scrol {
+  top: -100px;
+}
+
+.navbar-active {
+  overflow: hidden;
+  max-width: 0px;
+}
+
+.navbar-active .navbar {
+  background-color: transparent;
+}
+
+.navbar-active .navbar__list {
+  transform: translate(100%, -50%);
+}
+
+@media screen and (min-width: 740px) {
+  .navbar__menu-toggle {
+    display: none;
+  }
+
+  .navbar__list {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    position: static;
+    top: 0;
+    left: 0px;
+    transform: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0 10px 10px 0;
+    transition: 0.1s;
+  }
+
+  .navbar-active {
+    max-width: 100%;
+  }
+
+  .navbar-active .navbar {
+    background-color: var(--col-light);
+  }
+
+  .navbar-active .navbar__list {
+    transform: none;
+  }
+
+  .navbar__list-item {
+    font-family: var(--nunito);
+    font-weight: 600;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 1040px) {
+  .navbar__list {
+    width: 45%;
+  }
+}

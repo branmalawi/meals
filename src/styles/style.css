@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Nunito:wght@600&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+@import url("./navbar.css");
+@import url("./hero.css");
+@import url("./catalogue.css");
+@import url("./footer.css");
+@import url("./detail.css");
+@import url("./menu.css");
+@import url("./review.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --col-primary: #f2c500;
+  --col-light: #f5f5f5;
+  --nunito: "Nunito", sans-serif;
+  --cursive: "Bad Script", cursive;
+  --poppins: "Poppins", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --skeleton: skeleton 1.5s linear infinite;
+}
+
+body {
+  background: url("../public/assets/css_uses/wave-top.svg") no-repeat left top /
+      auto 350px,
+    url("../public/assets/css_uses/wave-bottom.svg") no-repeat center bottom /
+      auto 400px,
+    linear-gradient(var(--col-light), var(--col-light));
+  max-width: 1120px;
+  margin: auto;
+  font-family: arial, sans-serif;
+  position: relative;
+}
+
+body > a {
+  padding: 10px;
+  position: absolute;
+  top: -100px;
+  left: 5px;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-family: var(--poppins);
+  z-index: 100;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+body > a:focus {
+  top: 5px;
+}
+
+main {
+  padding: 0 5px;
+  width: 100%;
+}
+
+.main-blur::after {
+  content: "";
+  display: block;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+@keyframes skeleton {
+  0% {
+    background-color: hsl(0, 0%, 60%);
+  }
+  50% {
+    background-color: hsl(0, 0%, 75%);
+  }
+  100% {
+    background-color: hsl(0, 0%, 60%);
+  }
+}
+
+@media screen and (min-width: 740px) {
+  body {
+    background: url("../public/assets/css_uses/wave-top.svg") no-repeat center
+        calc(0% - 100px) / 1300px,
+      url("../public/assets/css_uses/wave-bottom.svg") no-repeat center
+        calc(100% + 150px) / 1300px;
+  }
+
+  .main-blur::after {
+    display: none;
+  }
+}

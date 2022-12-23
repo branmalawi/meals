@@ -1,0 +1,136 @@
+.catalogue {
+  margin-top: 20px;
+  min-height: 75vh;
+}
+
+.catalogue__nodata {
+  width: 100%;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.catalogue__nodata img {
+  width: min(100%, 650px);
+}
+.catalogue__nodata h1 {
+  font-weight: 500;
+  font-family: var(--poppins);
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.catalogue__heading {
+  margin: 5px 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--poppins);
+}
+
+.catalogue__list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.catalogue__list-item {
+  margin: auto;
+  width: 100%;
+}
+
+.catalogue__item-image {
+  margin: auto;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  animation: var(--skeleton);
+}
+
+.catalogue__item-image img {
+  width: 100%;
+  filter: brightness(80%);
+}
+
+.catalogue__item-image .rate {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  padding: 2px 10px 2px 6px;
+  display: block;
+  border-radius: 5px 0 0 5px;
+}
+
+.catalogue__item-data {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1px;
+  padding: 8px;
+  align-items: center;
+}
+
+.catalogue__item-data h3 {
+  grid-area: 1 / 1 / 2 / span 4;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.catalogue__item-data p {
+  grid-area: 2 / 1 / -1 / span 4;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.catalogue__item-data a {
+  grid-area: 1 / -2 / 3 / -1;
+  aspect-ratio: 1/1;
+  width: 80%;
+  margin: auto;
+  background-color: var(--col-light);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  min-width: 44px;
+  min-height: 44px;
+}
+.catalogue__item-data a img {
+  height: 100%;
+  margin: 0;
+}
+
+.catalogue .skeleton {
+  animation: var(--skeleton);
+  color: transparent;
+}
+
+@media screen and (min-width: 540px) {
+  .catalogue__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+@media screen and (min-width: 860px) {
+  .catalogue__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .catalogue__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
