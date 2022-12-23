@@ -1,5 +1,7 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable import/extensions */
 import Swal from 'sweetalert2/src/sweetalert2.js';
+import 'sweetalert2/dist/sweetalert2.css';
 
 class SweetAlert {
   static success(message) {
